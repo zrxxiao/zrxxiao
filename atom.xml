@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>萧十三的博客</title>
   
-  
+  <subtitle>萧十三</subtitle>
   <link href="https://zrxxiao.github.io/atom.xml" rel="self"/>
   
   <link href="https://zrxxiao.github.io/"/>
