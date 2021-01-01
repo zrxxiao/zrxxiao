@@ -518,7 +518,7 @@ dw      0xaa55                          ; 结束标志<span aria-hidden="true" c
 <h2 id="四、编译生成bin文件"><a href="#四、编译生成bin文件" class="headerlink" title="四、编译生成bin文件"></a>四、编译生成bin文件</h2><p>安装好NASM后，执行下面指令将boot.asm编译成bin文件。</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">nasm boot.asm -o boot.bin<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="五、安装Bochs"><a href="#五、安装Bochs" class="headerlink" title="五、安装Bochs"></a>五、安装Bochs</h2><p>文中使用的bochs是2.3.5版本，运行configure脚本时，即使安装了相关部件也会报错，我在网上查到是由于版本<br>比较老，因此我换成了2.6.10版的。要安装带调试功能的bochs，要去官网下载压缩包bochs-2.6.10.tar.gz，按照<br>下面指令进行安装，在安装过程中可能有些问题，具体可以参考<a target="_blank" rel="noopener" href="https://my.oschina.net/liuzhihe/blog/794036%E3%80%82">https://my.oschina.net/liuzhihe/blog/794036。</a></p>
+<h2 id="五、安装Bochs"><a href="#五、安装Bochs" class="headerlink" title="五、安装Bochs"></a>五、安装Bochs</h2><p>文中使用的bochs是2.3.5版本，运行configure脚本时，即使安装了相关部件也会报错，我在网上查到是由于版本<br>比较老，因此我换成了2.6.10版的。要安装带调试功能的bochs，要去官网下载压缩包bochs-2.6.10.tar.gz，按照<br>下面指令进行安装，在安装过程中可能有些问题，具体可以参考<a target="_blank" rel="noopener" href="https://my.oschina.net/liuzhihe/blog/794036">https://my.oschina.net/liuzhihe/blog/794036</a></p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">tar</span> vxzf bochs-2.6.10.tar.gz
 <span class="token builtin class-name">cd</span> bochs-2.6.10
 <span class="token function">sudo</span> ./configure --enable-debugger --enable-disasm
